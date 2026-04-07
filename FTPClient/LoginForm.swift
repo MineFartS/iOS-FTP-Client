@@ -7,11 +7,14 @@
 
 import Foundation
 import SwiftUI
+import SwiftFTPClient
 
-struct LoginView: View {
+struct LoginForm: View {
     
-    @AppStorage("username") var username: String = ""
-    @AppStorage("password") var password: String = ""
+    @State private var username: String = ""
+    @State private var password: String = ""
+    
+    @AppStorage("creds") var creds: FTPCredentials = nil
     
     var body: some View {
         
@@ -23,7 +26,14 @@ struct LoginView: View {
             .textContentType(.password)
         
         Button("Save") {
-            // TODO
+        
+            creds = FTPCredentials(
+                host: "philh.myftp.biz",
+                port: 21,
+                username: $username.wrappedValue,
+                password: $password.wrappedValue
+            )
+            
         }
         
     }
