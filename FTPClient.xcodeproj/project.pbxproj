@@ -11,6 +11,7 @@
 		9491B3F52F85707C00B1D1F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491B3F42F85707C00B1D1F4 /* ContentView.swift */; };
 		9491B3F72F85709F00B1D1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9491B3F62F85709F00B1D1F4 /* Assets.xcassets */; };
 		9491B3FA2F85709F00B1D1F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9491B3F92F85709F00B1D1F4 /* Preview Assets.xcassets */; };
+		9491B4022F85738700B1D1F4 /* SwiftFTPClient in Frameworks */ = {isa = PBXBuildFile; productRef = 9491B4012F85738700B1D1F4 /* SwiftFTPClient */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9491B4022F85738700B1D1F4 /* SwiftFTPClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = FTPClient;
+			packageProductDependencies = (
+				9491B4012F85738700B1D1F4 /* SwiftFTPClient */,
+			);
 			productName = FTPClient;
 			productReference = 9491B3EF2F85707C00B1D1F4 /* FTPClient.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 9491B3E62F85707B00B1D1F4;
+			packageReferences = (
+				9491B4002F85738700B1D1F4 /* XCRemoteSwiftPackageReference "SwiftFTPClient" */,
+			);
 			productRefGroup = 9491B3F02F85707C00B1D1F4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -342,6 +350,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9491B4002F85738700B1D1F4 /* XCRemoteSwiftPackageReference "SwiftFTPClient" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/fenixkim/SwiftFTPClient.git";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9491B4012F85738700B1D1F4 /* SwiftFTPClient */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9491B4002F85738700B1D1F4 /* XCRemoteSwiftPackageReference "SwiftFTPClient" */;
+			productName = SwiftFTPClient;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9491B3E72F85707B00B1D1F4 /* Project object */;
 }
