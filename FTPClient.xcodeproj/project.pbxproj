@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		9491B3F32F85707C00B1D1F4 /* FTPClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491B3F22F85707C00B1D1F4 /* FTPClientApp.swift */; };
-		9491B3F52F85707C00B1D1F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491B3F42F85707C00B1D1F4 /* ContentView.swift */; };
 		9491B3F72F85709F00B1D1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9491B3F62F85709F00B1D1F4 /* Assets.xcassets */; };
 		9491B3FA2F85709F00B1D1F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9491B3F92F85709F00B1D1F4 /* Preview Assets.xcassets */; };
 		9491B4062F8576B100B1D1F4 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491B4052F8576B100B1D1F4 /* LoginForm.swift */; };
@@ -21,7 +20,6 @@
 /* Begin PBXFileReference section */
 		9491B3EF2F85707C00B1D1F4 /* FTPClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FTPClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9491B3F22F85707C00B1D1F4 /* FTPClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPClientApp.swift; sourceTree = "<group>"; };
-		9491B3F42F85707C00B1D1F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9491B3F62F85709F00B1D1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9491B3F92F85709F00B1D1F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9491B4052F8576B100B1D1F4 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
@@ -66,7 +64,6 @@
 				9491B40A2F85894D00B1D1F4 /* FTPUploadable.swift */,
 				9491B40C2F85894E00B1D1F4 /* SwiftFTPClient.swift */,
 				9491B3F22F85707C00B1D1F4 /* FTPClientApp.swift */,
-				9491B3F42F85707C00B1D1F4 /* ContentView.swift */,
 				9491B4052F8576B100B1D1F4 /* LoginForm.swift */,
 				9491B3F62F85709F00B1D1F4 /* Assets.xcassets */,
 				9491B3F82F85709F00B1D1F4 /* Preview Content */,
@@ -156,7 +153,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9491B3F52F85707C00B1D1F4 /* ContentView.swift in Sources */,
 				9491B40F2F85894E00B1D1F4 /* SwiftFTPClient.swift in Sources */,
 				9491B4102F85894E00B1D1F4 /* FTPCredentials.swift in Sources */,
 				9491B40D2F85894E00B1D1F4 /* FTPError.swift in Sources */,

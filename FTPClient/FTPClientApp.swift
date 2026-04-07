@@ -11,7 +11,7 @@ import SwiftUI
 struct FTPClientApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginForm()
         }
     }
 }
