@@ -12,7 +12,6 @@
 		9491B3F72F85709F00B1D1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9491B3F62F85709F00B1D1F4 /* Assets.xcassets */; };
 		9491B3FA2F85709F00B1D1F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9491B3F92F85709F00B1D1F4 /* Preview Assets.xcassets */; };
 		9491B4022F85738700B1D1F4 /* SwiftFTPClient in Frameworks */ = {isa = PBXBuildFile; productRef = 9491B4012F85738700B1D1F4 /* SwiftFTPClient */; };
-		9491B4042F85741500B1D1F4 /* conn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491B4032F85741500B1D1F4 /* conn.swift */; };
 		9491B4062F8576B100B1D1F4 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491B4052F8576B100B1D1F4 /* LoginForm.swift */; };
 /* End PBXBuildFile section */
 
@@ -22,7 +21,6 @@
 		9491B3F42F85707C00B1D1F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9491B3F62F85709F00B1D1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9491B3F92F85709F00B1D1F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		9491B4032F85741500B1D1F4 /* conn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = conn.swift; sourceTree = "<group>"; };
 		9491B4052F8576B100B1D1F4 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -59,7 +57,6 @@
 			children = (
 				9491B3F22F85707C00B1D1F4 /* FTPClientApp.swift */,
 				9491B3F42F85707C00B1D1F4 /* ContentView.swift */,
-				9491B4032F85741500B1D1F4 /* conn.swift */,
 				9491B4052F8576B100B1D1F4 /* LoginForm.swift */,
 				9491B3F62F85709F00B1D1F4 /* Assets.xcassets */,
 				9491B3F82F85709F00B1D1F4 /* Preview Content */,
@@ -153,7 +150,6 @@
 			files = (
 				9491B3F52F85707C00B1D1F4 /* ContentView.swift in Sources */,
 				9491B3F32F85707C00B1D1F4 /* FTPClientApp.swift in Sources */,
-				9491B4042F85741500B1D1F4 /* conn.swift in Sources */,
 				9491B4062F8576B100B1D1F4 /* LoginForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
