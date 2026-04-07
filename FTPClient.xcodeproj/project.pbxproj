@@ -12,7 +12,10 @@
 		9491B3F72F85709F00B1D1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9491B3F62F85709F00B1D1F4 /* Assets.xcassets */; };
 		9491B3FA2F85709F00B1D1F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9491B3F92F85709F00B1D1F4 /* Preview Assets.xcassets */; };
 		9491B4062F8576B100B1D1F4 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491B4052F8576B100B1D1F4 /* LoginForm.swift */; };
-		9491B4082F85888B00B1D1F4 /* FTP in Resources */ = {isa = PBXBuildFile; fileRef = 9491B4072F85888B00B1D1F4 /* FTP */; };
+		9491B40D2F85894E00B1D1F4 /* FTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491B4092F85894C00B1D1F4 /* FTPError.swift */; };
+		9491B40E2F85894E00B1D1F4 /* FTPUploadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491B40A2F85894D00B1D1F4 /* FTPUploadable.swift */; };
+		9491B40F2F85894E00B1D1F4 /* SwiftFTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491B40C2F85894E00B1D1F4 /* SwiftFTPClient.swift */; };
+		9491B4102F85894E00B1D1F4 /* FTPCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491B40B2F85894E00B1D1F4 /* FTPCredentials.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,7 +25,10 @@
 		9491B3F62F85709F00B1D1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9491B3F92F85709F00B1D1F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9491B4052F8576B100B1D1F4 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
-		9491B4072F85888B00B1D1F4 /* FTP */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FTP; sourceTree = "<group>"; };
+		9491B4092F85894C00B1D1F4 /* FTPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPError.swift; sourceTree = "<group>"; };
+		9491B40A2F85894D00B1D1F4 /* FTPUploadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPUploadable.swift; sourceTree = "<group>"; };
+		9491B40B2F85894E00B1D1F4 /* FTPCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FTPCredentials.swift; sourceTree = "<group>"; };
+		9491B40C2F85894E00B1D1F4 /* SwiftFTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFTPClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +61,10 @@
 		9491B3F12F85707C00B1D1F4 /* FTPClient */ = {
 			isa = PBXGroup;
 			children = (
-				9491B4072F85888B00B1D1F4 /* FTP */,
+				9491B40B2F85894E00B1D1F4 /* FTPCredentials.swift */,
+				9491B4092F85894C00B1D1F4 /* FTPError.swift */,
+				9491B40A2F85894D00B1D1F4 /* FTPUploadable.swift */,
+				9491B40C2F85894E00B1D1F4 /* SwiftFTPClient.swift */,
 				9491B3F22F85707C00B1D1F4 /* FTPClientApp.swift */,
 				9491B3F42F85707C00B1D1F4 /* ContentView.swift */,
 				9491B4052F8576B100B1D1F4 /* LoginForm.swift */,
@@ -135,7 +144,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9491B4082F85888B00B1D1F4 /* FTP in Resources */,
 				9491B3FA2F85709F00B1D1F4 /* Preview Assets.xcassets in Resources */,
 				9491B3F72F85709F00B1D1F4 /* Assets.xcassets in Resources */,
 			);
@@ -149,6 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				9491B3F52F85707C00B1D1F4 /* ContentView.swift in Sources */,
+				9491B40F2F85894E00B1D1F4 /* SwiftFTPClient.swift in Sources */,
+				9491B4102F85894E00B1D1F4 /* FTPCredentials.swift in Sources */,
+				9491B40D2F85894E00B1D1F4 /* FTPError.swift in Sources */,
+				9491B40E2F85894E00B1D1F4 /* FTPUploadable.swift in Sources */,
 				9491B3F32F85707C00B1D1F4 /* FTPClientApp.swift in Sources */,
 				9491B4062F8576B100B1D1F4 /* LoginForm.swift in Sources */,
 			);
