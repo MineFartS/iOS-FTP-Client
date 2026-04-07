@@ -13,7 +13,7 @@ struct LoginForm: View {
     @State private var username: String = ""
     @State private var password: String = ""
     
-    @AppStorage("creds") var creds: FTPCredentials = nil
+//    @AppStorage("creds") var creds: FTPCredentials = nil
     
     var body: some View {
         
@@ -25,14 +25,14 @@ struct LoginForm: View {
             .textContentType(.password)
         
         Button("Save") {
-        
+/*
             creds = FTPCredentials(
                 host: "philh.myftp.biz",
                 port: 21,
                 username: $username.wrappedValue,
                 password: $password.wrappedValue
             )
-            
+*/
         }
         
     }
