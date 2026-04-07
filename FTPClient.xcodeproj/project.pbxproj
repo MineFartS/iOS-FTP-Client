@@ -11,8 +11,8 @@
 		9491B3F52F85707C00B1D1F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491B3F42F85707C00B1D1F4 /* ContentView.swift */; };
 		9491B3F72F85709F00B1D1F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9491B3F62F85709F00B1D1F4 /* Assets.xcassets */; };
 		9491B3FA2F85709F00B1D1F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9491B3F92F85709F00B1D1F4 /* Preview Assets.xcassets */; };
-		9491B4022F85738700B1D1F4 /* SwiftFTPClient in Frameworks */ = {isa = PBXBuildFile; productRef = 9491B4012F85738700B1D1F4 /* SwiftFTPClient */; };
 		9491B4062F8576B100B1D1F4 /* LoginForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9491B4052F8576B100B1D1F4 /* LoginForm.swift */; };
+		9491B4082F85888B00B1D1F4 /* FTP in Resources */ = {isa = PBXBuildFile; fileRef = 9491B4072F85888B00B1D1F4 /* FTP */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +22,7 @@
 		9491B3F62F85709F00B1D1F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9491B3F92F85709F00B1D1F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9491B4052F8576B100B1D1F4 /* LoginForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginForm.swift; sourceTree = "<group>"; };
+		9491B4072F85888B00B1D1F4 /* FTP */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FTP; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,7 +30,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9491B4022F85738700B1D1F4 /* SwiftFTPClient in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,6 +55,7 @@
 		9491B3F12F85707C00B1D1F4 /* FTPClient */ = {
 			isa = PBXGroup;
 			children = (
+				9491B4072F85888B00B1D1F4 /* FTP */,
 				9491B3F22F85707C00B1D1F4 /* FTPClientApp.swift */,
 				9491B3F42F85707C00B1D1F4 /* ContentView.swift */,
 				9491B4052F8576B100B1D1F4 /* LoginForm.swift */,
@@ -89,7 +90,6 @@
 			);
 			name = FTPClient;
 			packageProductDependencies = (
-				9491B4012F85738700B1D1F4 /* SwiftFTPClient */,
 			);
 			productName = FTPClient;
 			productReference = 9491B3EF2F85707C00B1D1F4 /* FTPClient.app */;
@@ -120,7 +120,6 @@
 			);
 			mainGroup = 9491B3E62F85707B00B1D1F4;
 			packageReferences = (
-				9491B4002F85738700B1D1F4 /* XCRemoteSwiftPackageReference "SwiftFTPClient" */,
 			);
 			productRefGroup = 9491B3F02F85707C00B1D1F4 /* Products */;
 			projectDirPath = "";
@@ -136,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9491B4082F85888B00B1D1F4 /* FTP in Resources */,
 				9491B3FA2F85709F00B1D1F4 /* Preview Assets.xcassets in Resources */,
 				9491B3F72F85709F00B1D1F4 /* Assets.xcassets in Resources */,
 			);
@@ -364,25 +364,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		9491B4002F85738700B1D1F4 /* XCRemoteSwiftPackageReference "SwiftFTPClient" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/fenixkim/SwiftFTPClient.git";
-			requirement = {
-				kind = exactVersion;
-				version = 1.0.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		9491B4012F85738700B1D1F4 /* SwiftFTPClient */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9491B4002F85738700B1D1F4 /* XCRemoteSwiftPackageReference "SwiftFTPClient" */;
-			productName = SwiftFTPClient;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 9491B3E72F85707B00B1D1F4 /* Project object */;
 }
